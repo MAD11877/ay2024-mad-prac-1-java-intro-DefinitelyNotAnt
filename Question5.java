@@ -31,11 +31,11 @@ public class Question5
     int mode;
     int modecount;
     ArrayList<Integer> data = new ArrayList<>();
-    for (int i = 0; i++; i<=count){
+    for (int i = 0;i <= count;i++){
       in = new Scanner(System.in);
       int num = in.nextInt();
       data.add(num);
-      for (int a = 0;a++;a<=i){
+      for (int a = 0;a <= i;a++){
         int numcount = 0;
         if (data[a] == num){
           numcount += 1;
