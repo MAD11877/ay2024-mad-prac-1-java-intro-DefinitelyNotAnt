@@ -25,7 +25,6 @@ public class Question5
      *     2
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
-    import java.util.ArrayList;
     Scanner in = new Scanner(System.in);
     int count = in.nextInt();
     int mode;
