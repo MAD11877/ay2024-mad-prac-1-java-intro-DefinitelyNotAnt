@@ -32,7 +32,6 @@ public class Question5
     int numcount = 0;
     ArrayList<Integer> data = new ArrayList<>();
     for (int i = 0;i <= count;i++){
-      in = new Scanner(System.in);
       int num = in.nextInt();
       data.add(num);
       for (int a = 0;a <= i;a++){
