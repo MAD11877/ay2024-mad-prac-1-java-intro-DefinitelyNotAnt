@@ -27,9 +27,9 @@ public class Question5
      */
     Scanner in = new Scanner(System.in);
     int count = in.nextInt();
-    int mode;
-    int modecount;
-    int numcount;
+    int mode = 0;
+    int modecount = 0;
+    int numcount = 0;
     ArrayList<Integer> data = new ArrayList<>();
     for (int i = 0;i <= count;i++){
       in = new Scanner(System.in);
