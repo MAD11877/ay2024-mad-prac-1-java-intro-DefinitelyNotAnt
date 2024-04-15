@@ -37,7 +37,7 @@ public class Question5
       data.add(num);
       for (int a = 0;a <= i;a++){
         numcount = 0;
-        if (data[a] == num){
+        if (data.get(a) == num){
           numcount += 1;
         }
       }
