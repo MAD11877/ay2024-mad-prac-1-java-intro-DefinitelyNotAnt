@@ -31,16 +31,16 @@ public class Question5
     int modecount = 0;
     int numcount = 0;
     ArrayList<Integer> data = new ArrayList<>();
-    for (int i = 0;i <= count;i++){
+    for (int i = 0;i < count;i++){
       int num = in.nextInt();
       data.add(num);
+      numcount = 0;
       for (int a = 0;a <= i;a++){
-        numcount = 0;
-        if (data.get(a) == num){
+        if (data.get(a).equals(num)){
           numcount += 1;
         }
       }
-      if (numcount > mode){
+      if (numcount > modecount){
         mode = num;
         modecount = numcount;
       }
