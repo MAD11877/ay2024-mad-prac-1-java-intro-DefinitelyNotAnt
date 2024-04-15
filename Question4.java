@@ -19,7 +19,7 @@ public class Question4
      
     Scanner in = new Scanner(System.in);
     double base = in.nextInt();
-    for(int i = 1;i <= base; i++){
+    for(base;base >= 0; base--){
       for(int a = 0; a<=i;a++){
         System.out.print("*");
       }
