@@ -20,7 +20,10 @@ public class Question4
     Scanner in = new Scanner(System.in);
     double base = in.nextInt();
     for(int i = 1;i <= base; i++){
-      System.out.println("*"*i);
+      for(int a = 0; a<=i;a++){
+        System.out.print("*");
+      }
+      System.out.println();
     }
   }
 }

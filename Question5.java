@@ -29,13 +29,14 @@ public class Question5
     int count = in.nextInt();
     int mode;
     int modecount;
+    int numcount;
     ArrayList<Integer> data = new ArrayList<>();
     for (int i = 0;i <= count;i++){
       in = new Scanner(System.in);
       int num = in.nextInt();
       data.add(num);
       for (int a = 0;a <= i;a++){
-        int numcount = 0;
+        numcount = 0;
         if (data[a] == num){
           numcount += 1;
         }
