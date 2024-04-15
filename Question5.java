@@ -25,8 +25,27 @@ public class Question5
      *     2
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
-     
+    import java.util.ArrayList;
     Scanner in = new Scanner(System.in);
-    
+    int count = in.nextInt();
+    int mode;
+    int modecount;
+    ArrayList<Integer> data = new ArrayList<>();
+    for (int i = 0; i++; i<=count){
+      in = new Scanner(System.in);
+      int num = in.nextInt();
+      data.add(num);
+      for (int a = 0;a++;a<=i){
+        int numcount = 0;
+        if (data[a] == num){
+          numcount += 1;
+        }
+      }
+      if (numcount > mode){
+        mode = num;
+        modecount = numcount;
+      }
+    }
+    System.out.println(mode);
   }
 }
